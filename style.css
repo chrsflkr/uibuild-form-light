@@ -1,0 +1,131 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #f7e4d4;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  font-family: "EB Garamond", serif;
+  color: #467745;
+  font-size: 48px;
+  font-weight: 400;
+  margin-top: 25%;
+  margin-bottom: 20px;
+}
+@media only screen and (max-width: 520px) {
+  .title {
+    justify-content: left;
+    font-size: 36px;
+  }
+}
+
+.inputs {
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.targy {
+  color: #467745;
+  font-size: 16px;
+  font-weight: 500;
+  width: 480px;
+  height: 64px;
+  padding-left: 20px;
+  border: none;
+}
+.targy ::-moz-placeholder {
+  color: #467745;
+}
+.targy ::placeholder {
+  color: #467745;
+}
+@media only screen and (max-width: 520px) {
+  .targy {
+    width: calc(100% - 40px);
+    margin: 20px;
+  }
+}
+
+.inmemorials {
+  font-family: "Montserrat", sans-serif;
+  color: #467745;
+  font-size: 16px;
+  font-weight: 500;
+  width: 480px;
+  height: 120px;
+  padding-left: 20px;
+  border: none;
+}
+.inmemorials ::-moz-placeholder {
+  color: #467745;
+}
+.inmemorials ::placeholder {
+  color: #467745;
+}
+@media only screen and (max-width: 520px) {
+  .inmemorials {
+    width: calc(100% - 40px);
+    margin: 20px;
+  }
+}
+
+.checkingline {
+  display: flex;
+  flex-direction: row;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+}
+.checkingline .checkbox {
+  margin-right: 20px;
+  border: none;
+}
+@media only screen and (max-width: 520px) {
+  .checkingline .checkbox {
+    margin: 20px;
+  }
+}
+.checkingline p {
+  color: #467745;
+}
+.checkingline .underL {
+  color: #467745;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.btn button {
+  font-family: "EB Garamond", serif;
+  font-size: 21px;
+  background-color: #467745;
+  color: #f7e4d4;
+  width: 280px;
+  height: 80px;
+  border-radius: 40px;
+  border: none;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+}/*# sourceMappingURL=style.css.map */
